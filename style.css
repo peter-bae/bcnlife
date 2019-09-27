@@ -54,17 +54,26 @@ h2 {
 	border: 1px solid #bcbcbc;
 }
 #jb-content {
-	width: 900px;
-	padding: 20px;
+	width: 980px;
+	padding-left: 15px;
+	padding-right: 15px;
 	margin-bottom: 20px;
+	border: 1px solid #bcbcbc;
 	float: right;
+}
+	#jb-content1 {
+		width: 980px;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-bottom: 20px;
+		float: right;
 
 }
 #jb-sidebar {
 	width: 260px;
 	padding: 20px;
 	margin-bottom: 20px;
-	border: 2px solid black;
+	border: 2px solid #bcbcbc;
 	float: left;
 
 }
@@ -75,6 +84,7 @@ h2 {
 }
 #columns{
 	column-width:300px;
+
 	column-gap: 15px;
 }
 #columns figure{
@@ -92,6 +102,7 @@ h2 {
 	border-top:1px solid rgba(0,0,0,0.2);
 	padding:10px;
 	margin-top:11px;
+	width : 250px
 }
 #columns{
 	column-width:300px;
