@@ -1,8 +1,10 @@
 h1 {
 	font-size : 20px;
 	font-family : Arial;
+	text-align: center;
 }
 
+<hr style="border: solid 4px;">
 h2 {
 	font-size : 20px;
 	font-family : Arial;
@@ -17,9 +19,7 @@ h2 {
 .uppercase{
 	text-transform : capitalize;
 }
-#important {
-	font-family : Cursive;
-}
+
 
 .headline {
 	color : firebrick;
@@ -58,21 +58,60 @@ h2 {
 	padding: 20px;
 	margin-bottom: 20px;
 	float: right;
-	border: 1px solid #bcbcbc;
+
 }
 #jb-sidebar {
 	width: 260px;
 	padding: 20px;
 	margin-bottom: 20px;
 	float: left;
-	border: 1px solid #bcbcbc;
+
 }
 #jb-footer {
 	clear: both;
 	padding: 20px;
 	border: 1px solid #bcbcbc;
 }
-
+#columns{
+	column-width:300px;
+	column-gap: 15px;
+}
+#columns figure{
+	display: inline-block;
+	border:1px solid rgba(0,0,0,0.2);
+	margin:0;
+	margin-bottom: 15px;
+	padding:10px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);;
+}
+#columns figure img{
+	width:100%;
+}
+#columns figure figcaption{
+	border-top:1px solid rgba(0,0,0,0.2);
+	padding:10px;
+	margin-top:11px;
+}
+#columns{
+	column-width:300px;
+	column-gap: 15px;
+}
+#columns figure{
+	display: inline-block;
+	border:1px solid rgba(0,0,0,0.2);
+	margin:0;
+	margin-bottom: 15px;
+	padding:10px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);;
+}
+#columns figure img{
+	width:100%;
+}
+#columns figure figcaption{
+	border-top:1px solid rgba(0,0,0,0.2);
+	padding:10px;
+	margin-top:11px;
+}
 <!__
 p {
 	height : 240 px;
